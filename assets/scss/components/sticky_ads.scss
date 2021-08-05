@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 6, 2020, 10:48:23 AM
+    Author     : root
+*/
+
+.sticky-ads{
+    color:#fff;
+    margin:2% auto;
+    width: 320px;
+    text-align: center;
+}
+
+.sticky-ads-off {
+    display: none;
+}
+
+.sticky-ads-on {
+    position: fixed;
+    bottom: calc(1% + 38px);
+    z-index: 999999;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .ads-close-btn {
+        position: absolute;
+        top: calc(1% - 10px);
+        left: calc(100% - 15px);
+        background-color: #060606;
+        border-radius: 100%;
+        border: 1px solid white;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2px;
+        font-size: 15px;
+    }
+
+    @media only screen and (max-width: 320px) {
+        .ads-close-btn {
+            left: calc(100% - 25px);
+        }
+    }
+}

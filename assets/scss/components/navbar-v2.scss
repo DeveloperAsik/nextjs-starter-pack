@@ -1,0 +1,99 @@
+.nav-home-container-v2 {
+    color: #fff !important;
+
+    .sticky-install-menu {
+        background: white;
+        height: 60px;
+        color: #0C0C0C;
+
+        .install-logo {
+            width: 30px !important;
+            height: 30px !important;
+            margin: 5px !important;
+            margin-top: 0px !important;
+        }
+
+        .install-description {
+            font-size: 12px !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .center-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1;
+        }
+    }
+
+    .nav-container {
+        padding: 8px 16px !important;
+    }
+    
+    .nav-signup-item .nav-item {
+        margin-bottom: -1px;
+        width: 50%;
+        text-align: center;
+        color: #fff important;
+    }
+    .frmInput1 {
+        padding-top: 40px;
+    }
+    .inpt-form {
+        background: transparent;
+    }
+    .nav-tabs .nav-item {
+        margin-bottom: -1px;
+        width: 50%;
+        text-align: center;
+        color: #fff !important;
+    }
+
+    .nav-transparent {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.92)) !important;
+        box-shadow: none;
+    }
+    
+    .back-arrow-transparent {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        padding-left: 5px;
+    }
+
+    .left-top-link {
+        width: 13%;
+        .logo-top-wrapper {
+            width: 100%;
+        }
+    }
+    .middle-top {
+        width: 87%;
+
+        .search-input {
+            border: none;
+            border-radius: 10px;
+            background-color: rgba(216, 216, 216, 0.19);
+            font-size: 12px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.36px;
+            color: #969696;
+            padding: 4px;
+            padding-left: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .search-input-placeholder {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}

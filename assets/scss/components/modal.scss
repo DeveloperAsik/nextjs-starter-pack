@@ -1,0 +1,56 @@
+.modal-dialog {
+    margin: 0rem;
+
+    .modal-body-edited {
+        padding: 0rem !important;
+        padding-top: 40% !important;
+    }
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 0rem;
+    padding-top: 45%;
+}
+
+.modal-content {
+    height: 100vh;
+    border-radius: 0;
+    background-color: #282828;
+    color: white;
+}
+
+
+.player-modal {
+    .modal-header {
+        button {
+            color: white !important;
+            font-weight: 0 !important;
+            opacity: 1 !important;
+        }
+    }
+
+    .player-modal-container {
+        .vjs-seek-button {
+            position: absolute !important;
+            display: none;
+            bottom: 80px;
+            transform: scale(2);
+        }
+    
+        .vjs-seek-button:hover {
+            display: block;
+        }
+    
+        // .skip-back {
+        //     left: 30%;
+        // }
+    
+        // .skip-forward {
+        //     left: 60%;
+        // }
+    }
+}

@@ -1,0 +1,64 @@
+@import '../svg_icons.scss';
+
+$primary-bg-color: #282828;
+$primary-text-color: #979797;
+$primary-font-family: Helvetica !important;
+$default-text-color-login: #eee;
+$primary-text-color-login: #DB2828;
+$primary-btn-bg-color-login: #DB2828;
+$primary-btn-border-color-login: #DB2828;
+$text-placeholder-color-login: #a8a8a8;
+
+.container-box-c {
+    margin: 0px auto;
+    background-color: $primary-bg-color;
+    color: $primary-text-color;
+    width: 90%;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.form-control-c {
+    border-radius: 0 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom-width: 1.5px !important;
+    background: transparent !important;
+    border-color: #495057 !important;
+    color: $default-text-color-login !important;
+}
+
+.form-control-c:hover {
+    box-shadow: none !important;
+    background: transparent;
+}
+
+.form-text-c {
+    text-align: left;
+    color: $default-text-color-login !important;
+    font-size: 12px;
+}
+
+.form-text-c ul {
+    padding-left: 15px;
+}
+
+.form-label-c {
+    color: $default-text-color-login;
+}
+
+.addon-c {
+    padding: 6px;
+    border-color: #495057;
+    background: transparent;
+    color: $default-text-color-login;
+}
+
+.addon-left-c {
+    @extend .addon-c;
+    border-right-color: transparent;
+}

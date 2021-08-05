@@ -1,0 +1,44 @@
+.select-modal {
+    .modal-content {
+        background-color: rgba(40, 40, 40, 0.65);
+    }
+
+    .modal-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1px;
+    }
+}
+
+.modal-body-select {
+    text-align: center;
+}
+
+.close-container-select {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 35px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.close-icon-select {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.season-list {
+    height: 100vh;
+    padding: 20px;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.season-list h4 {
+    margin-bottom: 35px;
+    font-weight: bold;
+}
